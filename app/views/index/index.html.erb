@@ -1,4 +1,9 @@
-<div id="user">
+<div id="check">
+  <%= image_tag("redhouse.png", :alt => "housecall icon", :id => "icon") %>
+  <%= form_tag("/", method: "post", action: "show") do %>
+    <%= submit_tag("Get Humidity", :id => "show")%>
+    <h1 align="center">House Call</h1>
+  <% end %>
 </div>
 <div id="logs">
 </div>

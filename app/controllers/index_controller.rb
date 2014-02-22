@@ -1,3 +1,5 @@
 class IndexController < ApplicationController
-	logger.info "Index requested"
+  def show
+    p "show worked"
+  end
 end

@@ -1,5 +1,4 @@
 Housecall::Application.routes.draw do
-  get "butt/yummy"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -10,6 +9,7 @@ Housecall::Application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   get '/' => 'index#index'
+  post '/' => 'index#index'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
