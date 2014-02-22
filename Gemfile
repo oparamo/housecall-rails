@@ -32,10 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :production, :staging do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+gem 'rails_12factor'
 
 ruby "1.9.3"
 
