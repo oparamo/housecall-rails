@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Housecall::Application.config.secret_key_base = '9ed9a731bebe314ee3f7286428c2373fa7f1cdc0f120d72d62476098a807d9f2baa07403e5ed501df79a6b800cfb3d3e9e72ddd1c424a2f9b9b06005fb666ee0'
+Housecall::Application.config.secret_key_base = '9e4bbcf43293b144979be94cc36d7fc121eed4a543b32e7303e09122fbfb3eb7a62f5c9db0699e73411b87237223f6efa8691aed05481ecf66bc31406c0054c3'
