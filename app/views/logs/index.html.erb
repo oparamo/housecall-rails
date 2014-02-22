@@ -6,5 +6,18 @@
   <% end %>
 </div>
 <div id="logs">
-
+  <h1>Listing posts</h1>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Text</th>
+    </tr>
+   
+    <% @logs.each do |log| %>
+      <tr>
+        <td><%= log.date %></td>
+        <td><%= log.humidity %></td>
+      </tr>
+    <% end %>
+  </table>
 </div>

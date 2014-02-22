@@ -34,6 +34,8 @@ end
 
 gem 'rails_12factor'
 
+gem 'thin'
+
 ruby "1.9.3"
 
 # Use ActiveModel has_secure_password
