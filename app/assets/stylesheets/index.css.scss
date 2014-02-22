@@ -1,9 +1,27 @@
 $pcolor: #EF7C7B;
+
+/* tag styles */
 html, body {
   margin: 0;
   padding: 0;
   background: $pcolor;
 }
+h1 {
+  width: auto;
+  height: auto;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: $pcolor;
+}
+form {
+  position: relative;
+  z-index: 2;
+}
+table {
+  display: none;
+}
+
+/* custom divs */
 #header {
   height: 300px;
   width: 100%;
@@ -42,29 +60,15 @@ html, body {
   border: 2px solid $pcolor;
   z-index: 1;
 }
-
 #icon {
   width: 250px;
   margin: 30px auto 0 67px;
-}
-
-h1 {
-  width: auto;
-  height: auto;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  color: $pcolor;
-}
-form {
-  position: relative;
-  z-index: 2;
 }
 
 /* button style */
 #show {
   position: absolute;
   left: 35%;
-  bottom: 50px;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   color: #444;
