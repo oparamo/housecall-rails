@@ -19,7 +19,6 @@ development:
   encoding: unicode
   database: housecall_development
   pool: 5
-  username: housecall
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a

@@ -1,0 +1,23 @@
+<div id="check">
+  <%= image_tag("redhouse.png", :alt => "housecall icon", :id => "icon") %>
+  <%= form_tag("/logs", method: "post", action: "logs") do %>
+    <%= submit_tag("Get Humidity", :id => "show")%>
+    <h1 align="center">House Call</h1>
+  <% end %>
+</div>
+<div id="logs">
+  <h1>Listing posts</h1>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Text</th>
+    </tr>
+   
+    <% @logs.each do |log| %>
+      <tr>
+        <td><%= log.date %></td>
+        <td><%= log.humidity %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
